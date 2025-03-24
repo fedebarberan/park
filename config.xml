@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	useThumbDots="false"
+	useFullscreenExpand="false"
+	galleryTitle="Galeria de Fotos"
+	indexPageName="galeria-fotos.html"
+	showOpenButton="true"
+	useFlickr="false"
+	resizeOnImport="false"
+
+>
+  <image imageURL="images/Alquiler para evento Dakar Carlos Paz - Carros Electricos de Golf.jpg"
+	thumbURL="thumbs/Alquiler para evento Dakar Carlos Paz - Carros Electricos de Golf.jpg"
+	linkURL="images/Alquiler para evento Dakar Carlos Paz - Carros Electricos de Golf.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Alquiler para evento Dakar Carlos Paz - Carros Electricos de Golf.jpg">
+    <title><![CDATA[Alquiler para evento Dakar Carlos Paz - Carros Electricos de Golf]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Alquiler para evento Dakar Carlos Paz - Carros Electricos.jpg"
+	thumbURL="thumbs/Alquiler para evento Dakar Carlos Paz - Carros Electricos.jpg"
+	linkURL="images/Alquiler para evento Dakar Carlos Paz - Carros Electricos.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Alquiler para evento Dakar Carlos Paz - Carros Electricos.jpg">
+    <title><![CDATA[Alquiler para evento Dakar Carlos Paz - Carros Electricos]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Alquiler para evento Dakar Carlos Paz - Ezgo Naftero Marathon 4 personas..jpg"
+	thumbURL="thumbs/Alquiler para evento Dakar Carlos Paz - Ezgo Naftero Marathon 4 personas..jpg"
+	linkURL="images/Alquiler para evento Dakar Carlos Paz - Ezgo Naftero Marathon 4 personas..jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Alquiler para evento Dakar Carlos Paz - Ezgo Naftero Marathon 4 personas..jpg">
+    <title><![CDATA[Alquiler para evento Dakar Carlos Paz - Ezgo Naftero Marathon 4 personas.]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Carro Camillero para estadio de Catamarca 1.jpg"
+	thumbURL="thumbs/Carro Camillero para estadio de Catamarca 1.jpg"
+	linkURL="images/Carro Camillero para estadio de Catamarca 1.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Carro Camillero para estadio de Catamarca 1.jpg">
+    <title><![CDATA[Carro Camillero para estadio de Catamarca 1]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Carro Camillero para estadio de Catamarca. Detras.jpg"
+	thumbURL="thumbs/Carro Camillero para estadio de Catamarca. Detras.jpg"
+	linkURL="images/Carro Camillero para estadio de Catamarca. Detras.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Carro Camillero para estadio de Catamarca. Detras.jpg">
+    <title><![CDATA[Carro Camillero para estadio de Catamarca. Detras]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Carro Camillero para estadio de Catamarca. Frente.jpg"
+	thumbURL="thumbs/Carro Camillero para estadio de Catamarca. Frente.jpg"
+	linkURL="images/Carro Camillero para estadio de Catamarca. Frente.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Carro Camillero para estadio de Catamarca. Frente.jpg">
+    <title><![CDATA[Carro Camillero para estadio de Catamarca. Frente]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Carro de Golf Camillero para estadio de Belgrano de Cordoba. Camilla.jpg"
+	thumbURL="thumbs/Carro de Golf Camillero para estadio de Belgrano de Cordoba. Camilla.jpg"
+	linkURL="images/Carro de Golf Camillero para estadio de Belgrano de Cordoba. Camilla.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Carro de Golf Camillero para estadio de Belgrano de Cordoba. Camilla.jpg">
+    <title><![CDATA[Carro de Golf Camillero para estadio de Belgrano de Cordoba. Camilla]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Carro Electrico Camillero para estadio de Belgrano de Cordoba. Costado.jpg"
+	thumbURL="thumbs/Carro Electrico Camillero para estadio de Belgrano de Cordoba. Costado.jpg"
+	linkURL="images/Carro Electrico Camillero para estadio de Belgrano de Cordoba. Costado.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Carro Electrico Camillero para estadio de Belgrano de Cordoba. Costado.jpg">
+    <title><![CDATA[Carro Electrico Camillero para estadio de Belgrano de Cordoba. Costado]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Carros de Golf Electricos Usados.jpg"
+	thumbURL="thumbs/Carros de Golf Electricos Usados.jpg"
+	linkURL="images/Carros de Golf Electricos Usados.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Carros de Golf Electricos Usados.jpg">
+    <title><![CDATA[Carros de Golf Electricos Usados]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Club Car 4 Pasajeros, vendido a Cementerio Catedral Cordoba. Frente.jpg"
+	thumbURL="thumbs/Club Car 4 Pasajeros, vendido a Cementerio Catedral Cordoba. Frente.jpg"
+	linkURL="images/Club Car 4 Pasajeros, vendido a Cementerio Catedral Cordoba. Frente.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Club Car 4 Pasajeros, vendido a Cementerio Catedral Cordoba. Frente.jpg">
+    <title><![CDATA[Club Car 4 Pasajeros, vendido a Cementerio Catedral Cordoba. Frente]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Club Car 4 Pasajeros, vendido a Cementerio Catedral Cordoba.jpg"
+	thumbURL="thumbs/Club Car 4 Pasajeros, vendido a Cementerio Catedral Cordoba.jpg"
+	linkURL="images/Club Car 4 Pasajeros, vendido a Cementerio Catedral Cordoba.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Club Car 4 Pasajeros, vendido a Cementerio Catedral Cordoba.jpg">
+    <title><![CDATA[Club Car 4 Pasajeros, vendido a Cementerio Catedral Cordoba]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Club Car Carry All con caja rebatible. Vendido a Complejo Chilihuanca de  San Martin de los Andes 1.jpg"
+	thumbURL="thumbs/Club Car Carry All con caja rebatible. Vendido a Complejo Chilihuanca de  San Martin de los Andes 1.jpg"
+	linkURL="images/Club Car Carry All con caja rebatible. Vendido a Complejo Chilihuanca de  San Martin de los Andes 1.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Club Car Carry All con caja rebatible. Vendido a Complejo Chilihuanca de  San Martin de los Andes 1.jpg">
+    <title><![CDATA[Club Car Carry All con caja rebatible. Vendido a Complejo Chilihuanca de  San Martin de los Andes 1]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Club Car Carry All con caja rebatible. Vendido a Complejo Chilihuanca de  San Martin de los Andes 2.jpg"
+	thumbURL="thumbs/Club Car Carry All con caja rebatible. Vendido a Complejo Chilihuanca de  San Martin de los Andes 2.jpg"
+	linkURL="images/Club Car Carry All con caja rebatible. Vendido a Complejo Chilihuanca de  San Martin de los Andes 2.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Club Car Carry All con caja rebatible. Vendido a Complejo Chilihuanca de  San Martin de los Andes 2.jpg">
+    <title><![CDATA[Club Car Carry All con caja rebatible. Vendido a Complejo Chilihuanca de  San Martin de los Andes 2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Club Car DS. Agregado de Caja de herramientas.jpg"
+	thumbURL="thumbs/Club Car DS. Agregado de Caja de herramientas.jpg"
+	linkURL="images/Club Car DS. Agregado de Caja de herramientas.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Club Car DS. Agregado de Caja de herramientas.jpg">
+    <title><![CDATA[Club Car DS. Agregado de Caja de herramientas]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Club Car DS. Alquiler para evento.jpg"
+	thumbURL="thumbs/Club Car DS. Alquiler para evento.jpg"
+	linkURL="images/Club Car DS. Alquiler para evento.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Club Car DS. Alquiler para evento.jpg">
+    <title><![CDATA[Club Car DS. Alquiler para evento]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Club Car Electrico 48v.jpg"
+	thumbURL="thumbs/Club Car Electrico 48v.jpg"
+	linkURL="images/Club Car Electrico 48v.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Club Car Electrico 48v.jpg">
+    <title><![CDATA[Club Car Electrico 48v]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Club Car Precedent. Carrito Electrico para Golf.jpg"
+	thumbURL="thumbs/Club Car Precedent. Carrito Electrico para Golf.jpg"
+	linkURL="images/Club Car Precedent. Carrito Electrico para Golf.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Club Car Precedent. Carrito Electrico para Golf.jpg">
+    <title><![CDATA[Club Car Precedent. Carrito Electrico para Golf]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Club Car Precedent. Carro de Golf Usado Argentina.jpg"
+	thumbURL="thumbs/Club Car Precedent. Carro de Golf Usado Argentina.jpg"
+	linkURL="images/Club Car Precedent. Carro de Golf Usado Argentina.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Club Car Precedent. Carro de Golf Usado Argentina.jpg">
+    <title><![CDATA[Club Car Precedent. Carro de Golf Usado Argentina]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Ezgo Naftero Marathon 4 personas. Alquiler para evento en el estadio Kempes.jpg"
+	thumbURL="thumbs/Ezgo Naftero Marathon 4 personas. Alquiler para evento en el estadio Kempes.jpg"
+	linkURL="images/Ezgo Naftero Marathon 4 personas. Alquiler para evento en el estadio Kempes.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Ezgo Naftero Marathon 4 personas. Alquiler para evento en el estadio Kempes.jpg">
+    <title><![CDATA[Ezgo Naftero Marathon 4 personas. Alquiler para evento en el estadio Kempes]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Melex. Mantenimiento de Carro de Golf para la Provincia de Cordoba 1.jpg"
+	thumbURL="thumbs/Melex. Mantenimiento de Carro de Golf para la Provincia de Cordoba 1.jpg"
+	linkURL="images/Melex. Mantenimiento de Carro de Golf para la Provincia de Cordoba 1.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Melex. Mantenimiento de Carro de Golf para la Provincia de Cordoba 1.jpg">
+    <title><![CDATA[Melex. Mantenimiento de Carro de Golf para la Provincia de Cordoba 1]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Melex. Mantenimiento de Carro de Golf para la Provincia de Cordoba 2.jpg"
+	thumbURL="thumbs/Melex. Mantenimiento de Carro de Golf para la Provincia de Cordoba 2.jpg"
+	linkURL="images/Melex. Mantenimiento de Carro de Golf para la Provincia de Cordoba 2.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Melex. Mantenimiento de Carro de Golf para la Provincia de Cordoba 2.jpg">
+    <title><![CDATA[Melex. Mantenimiento de Carro de Golf para la Provincia de Cordoba 2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Asientos.jpg"
+	thumbURL="thumbs/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Asientos.jpg"
+	linkURL="images/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Asientos.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Asientos.jpg">
+    <title><![CDATA[Ezgo Naftero Marathon 4 personas. Alquiler para evento. Asientos]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Caja.jpg"
+	thumbURL="thumbs/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Caja.jpg"
+	linkURL="images/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Caja.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Caja.jpg">
+    <title><![CDATA[Ezgo Naftero Marathon 4 personas. Alquiler para evento. Caja]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Frente.jpg"
+	thumbURL="thumbs/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Frente.jpg"
+	linkURL="images/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Frente.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Ezgo Naftero Marathon 4 personas. Alquiler para evento. Frente.jpg">
+    <title><![CDATA[Ezgo Naftero Marathon 4 personas. Alquiler para evento. Frente]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Ezgo TXT con Capotina cubre palos.jpg"
+	thumbURL="thumbs/Ezgo TXT con Capotina cubre palos.jpg"
+	linkURL="images/Ezgo TXT con Capotina cubre palos.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Ezgo TXT con Capotina cubre palos.jpg">
+    <title><![CDATA[Ezgo TXT con Capotina cubre palos]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Ezgo TXT. Carro electrico para golf con capotina cubre palos.jpg"
+	thumbURL="thumbs/Ezgo TXT. Carro electrico para golf con capotina cubre palos.jpg"
+	linkURL="images/Ezgo TXT. Carro electrico para golf con capotina cubre palos.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Ezgo TXT. Carro electrico para golf con capotina cubre palos.jpg">
+    <title><![CDATA[Ezgo TXT. Carro electrico para golf con capotina cubre palos]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Melex 252 4 personas. Agregado de Asientos posteriores con posa pie.jpg"
+	thumbURL="thumbs/Melex 252 4 personas. Agregado de Asientos posteriores con posa pie.jpg"
+	linkURL="images/Melex 252 4 personas. Agregado de Asientos posteriores con posa pie.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Melex 252 4 personas. Agregado de Asientos posteriores con posa pie.jpg">
+    <title><![CDATA[Melex 252 4 personas. Agregado de Asientos posteriores con posa pie]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Melex 252 con Cabina para Empresa de Seguridad. Costado.jpg"
+	thumbURL="thumbs/Melex 252 con Cabina para Empresa de Seguridad. Costado.jpg"
+	linkURL="images/Melex 252 con Cabina para Empresa de Seguridad. Costado.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Melex 252 con Cabina para Empresa de Seguridad. Costado.jpg">
+    <title><![CDATA[Melex 252 con Cabina para Empresa de Seguridad. Costado]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Melex 252 con Cabina para Empresa de Seguridad. Frente.jpg"
+	thumbURL="thumbs/Melex 252 con Cabina para Empresa de Seguridad. Frente.jpg"
+	linkURL="images/Melex 252 con Cabina para Empresa de Seguridad. Frente.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Melex 252 con Cabina para Empresa de Seguridad. Frente.jpg">
+    <title><![CDATA[Melex 252 con Cabina para Empresa de Seguridad. Frente]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Melex 252 con cabina.jpg"
+	thumbURL="thumbs/Melex 252 con cabina.jpg"
+	linkURL="images/Melex 252 con cabina.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Melex 252 con cabina.jpg">
+    <title><![CDATA[Melex 252 con cabina]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Melex Electrico. Alquiler para evento.jpg"
+	thumbURL="thumbs/Melex Electrico. Alquiler para evento.jpg"
+	linkURL="images/Melex Electrico. Alquiler para evento.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Melex Electrico. Alquiler para evento.jpg">
+    <title><![CDATA[Melex Electrico. Alquiler para evento]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Melex vendido a Electroingenieria para retirar avion del hangar 1.jpg"
+	thumbURL="thumbs/Melex vendido a Electroingenieria para retirar avion del hangar 1.jpg"
+	linkURL="images/Melex vendido a Electroingenieria para retirar avion del hangar 1.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Melex vendido a Electroingenieria para retirar avion del hangar 1.jpg">
+    <title><![CDATA[Melex vendido a Electroingenieria para retirar avion del hangar 1]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Melex vendido a Electroingenieria para retirar avion del hangar 2.jpg"
+	thumbURL="thumbs/Melex vendido a Electroingenieria para retirar avion del hangar 2.jpg"
+	linkURL="images/Melex vendido a Electroingenieria para retirar avion del hangar 2.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Melex vendido a Electroingenieria para retirar avion del hangar 2.jpg">
+    <title><![CDATA[Melex vendido a Electroingenieria para retirar avion del hangar 2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Taller.jpg"
+	thumbURL="thumbs/Taller.jpg"
+	linkURL="images/Taller.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Taller.jpg">
+    <title><![CDATA[Taller]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Yamaha Carro de Golf con Caja.jpg"
+	thumbURL="thumbs/Yamaha Carro de Golf con Caja.jpg"
+	linkURL="images/Yamaha Carro de Golf con Caja.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Yamaha Carro de Golf con Caja.jpg">
+    <title><![CDATA[Yamaha Carro de Golf con Caja]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Yamaha Carro Electrico de Golf.jpg"
+	thumbURL="thumbs/Yamaha Carro Electrico de Golf.jpg"
+	linkURL="images/Yamaha Carro Electrico de Golf.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Yamaha Carro Electrico de Golf.jpg">
+    <title><![CDATA[Yamaha Carro Electrico de Golf]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Yamaha Carro Electrico.jpg"
+	thumbURL="thumbs/Yamaha Carro Electrico.jpg"
+	linkURL="images/Yamaha Carro Electrico.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Yamaha Carro Electrico.jpg">
+    <title><![CDATA[Yamaha Carro Electrico]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Yamaha G19.jpg"
+	thumbURL="thumbs/Yamaha G19.jpg"
+	linkURL="images/Yamaha G19.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Yamaha G19.jpg">
+    <title><![CDATA[Yamaha G19]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Fachada Taller.jpg"
+	thumbURL="thumbs/Fachada Taller.jpg"
+	linkURL="images/Fachada Taller.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Fede/Desktop/Park fotos/Fachada Taller.jpg">
+    <title><![CDATA[Fachada Taller]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
