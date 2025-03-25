@@ -22,6 +22,15 @@
 	<meta name="description" content="Compra, vende o alquila carros eléctricos en Argentina: nuevos y usados para golf y fabricas. Visita Park Soluciones.">
 	<meta property="og:title" content="Carros Eléctricos: Venta y Alquiler | Park Soluciones">
 	<meta property="og:description" content="Carros eléctricos nuevos y usados en venta o alquiler en Park Soluciones.">
+    <!-- Other meta tags -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Park Soluciones",
+        "url": "https://www.parksoluciones.com.ar"
+    }
+    </script>
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2SZ3N7PFY2"></script>
 	<script>
@@ -141,6 +150,7 @@ Adem&aacute;s, si posee un carrito y desea venderlo, podemos ayudarle a encontra
         </select>
     </div>
                 <div id="alquilar-fields" class="form-group" style="display: none;">
+                    <label for="duracion">Tiempo de alquiler</label>
                     <input type="number" id="duracion" name="duracion" class="form-control" maxlength="3" max="99" placeholder="Tiempo de alquiler">
                     <select id="unidad" name="unidad" class="form-control">
                         <option value="Dias">D&iacute;as</option>
@@ -251,7 +261,7 @@ Adem&aacute;s, si posee un carrito y desea venderlo, podemos ayudarle a encontra
                     <textarea id="comentarios" name="comentarios" class="form-control" maxlength="200" rows="4" placeholder="Comentarios adicionales (m&aacute;x. 200 caracteres)"></textarea>
                 </div>
                 <div class="form-group text-center">
-                    <button type="submit" id="submit-btn" class="tm-btn">Enviar el mensaje</button>
+                    <button type="submit" id="carros-electricos-submit-btn" class="tm-btn">Enviar el mensaje</button>
                 </div>
             </form>
         </section>
