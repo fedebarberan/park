@@ -14,38 +14,9 @@ $(document).ready(function() {
     }
 
     // Lock/unlock form
-    function lockForm(lock) {
-        $('#electric-cars-form input, #electric-cars-form textarea, #electric-cars-form select, #electric-cars-form button')
+    function lockForm(formId, lock) {
+        $(`#${formId} input, #${formId} textarea, #${formId} select, #${formId} button`)
             .prop('disabled', lock);
-    }
-
-    // Show/hide fields based on intention
-    $('#intencion').on('change', function() {
-        const intencion = $(this).val();
-        $('#alquilar-fields').hide();
-        $('#comprar-fields').hide();
-        $('#vender-fields').hide();
-        if (intencion === 'Alquilar') {
-            $('#alquilar-fields').show();
-        } else if (intencion === 'Comprar') {
-            $('#comprar-fields').show();
-        } else if (intencion === 'Vender') {
-            $('#vender-fields').show();
-        }
-    });
-
-    // UTM parameter handling
-    const url_string = window.location.href;
-    const url = new URL(url_string);
-    const utm = url.searchParams.get('utm');
-    if (typeof utm === 'string') {
-        if (utm.startsWith('alquilar')) {
-            $("#intencion").val("Alquilar").change();
-        } else if (utm.startsWith('comprar')) {
-            $("#intencion").val("Comprar").change();
-        } else if (utm.startsWith('vender')) {
-            $("#intencion").val("Vender").change();
-        }
     }
 
     // Clear placeholder on focus (inputs and textareas only)
@@ -61,85 +32,90 @@ $(document).ready(function() {
                 case 'provincia': this.placeholder = 'Provincia'; break;
                 case 'telefono': this.placeholder = 'Teléfono'; break;
                 case 'comentarios': this.placeholder = 'Comentarios adicionales (máx. 200 caracteres)'; break;
-                case 'duracion': this.placeholder = 'Duración'; break;
+                case 'mensaje': this.placeholder = 'Mensaje'; break;
             }
         }
     });
 
-    // Form submission with validation (button click)
-    $('#carros-submit-btn').on('click', function(e) {
-        e.preventDefault();
-        submitForm();
-    });
+    // Generic form submission handler
+    function setupForm(formId, submitBtnId) {
+        $(`#${submitBtnId}`).on('click', function(e) {
+            e.preventDefault();
+            submitForm(formId);
+        });
 
-    // Form submission with validation (Enter key or form submit)
-    $('#electric-cars-form').on('submit', function(e) {
-        e.preventDefault();
-        submitForm();
-    });
+        $(`#${formId}`).on('submit', function(e) {
+            e.preventDefault();
+            submitForm(formId);
+        });
+    }
 
-    // Centralized submission logic
-    function submitForm() {
+    function submitForm(formId) {
         let isValid = true;
         let errorMessage = '';
-        $('.form-control').removeClass('error');
+        $(`#${formId} .form-control`).removeClass('error');
 
-        const nombre = $('#nombre').val().trim();
+        const nombre = $(`#${formId} #nombre`).val().trim();
         if (!nombre || !/^[a-zA-Z\s]+$/.test(nombre)) {
-            $('#nombre').addClass('error');
+            $(`#${formId} #nombre`).addClass('error');
             errorMessage += 'Nombre es requerido y solo debe contener letras.\n\n';
             isValid = false;
         }
 
-        const correo = $('#correo').val().trim();
+        const correo = $(`#${formId} #correo`).val().trim();
         const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
         if (!correo || !emailRegex.test(correo)) {
-            $('#correo').addClass('error');
+            $(`#${formId} #correo`).addClass('error');
             errorMessage += 'Correo electrónico es requerido y debe ser válido.\n\n';
             isValid = false;
         }
 
         if (!isValid) {
             showPopup(errorMessage, false);
-            lockForm(true);
-            setTimeout(() => lockForm(false), 3000);
+            lockForm(formId, true);
+            setTimeout(() => lockForm(formId, false), 3000);
             return;
         }
 
         // Add hidden input for form source
-        if ($('#electric-cars-form input[name="form_source"]').length === 0) {
-            $('#electric-cars-form').append('<input type="hidden" name="form_source" value="electric-cars-form">');
+        if ($(`#${formId} input[name="form_source"]`).length === 0) {
+            $(`#${formId}`).append(`<input type="hidden" name="form_source" value="${formId}">`);
         }
 
-        const formData = $('#electric-cars-form').serialize();
-        console.log('Sending:', formData);
-        lockForm(true);
+        const formData = $(`#${formId}`).serialize();
+        console.log(`Sending (${formId}):`, formData);
+        lockForm(formId, true);
         $.ajax({
             url: 'send-contact.php',
             method: 'POST',
             data: formData,
             dataType: 'json',
             success: function(response) {
-                console.log('Response:', response);
+                console.log(`Response (${formId}):`, response);
                 if (response.status === 'success') {
                     showPopup(response.message, true);
-                    $('#electric-cars-form')[0].reset();
-                    $('#alquilar-fields').hide();
-                    $('#comprar-fields').hide();
-                    $('#vender-fields').hide();
-                    setTimeout(() => lockForm(false), 3000);
+                    $(`#${formId}`)[0].reset();
+                    setTimeout(() => lockForm(formId, false), 3000);
                 } else {
                     showPopup(response.message, false);
-                    lockForm(false);
+                    lockForm(formId, false);
                 }
             },
             error: function(xhr) {
-                console.log('AJAX Error:', xhr.status, xhr.responseText);
+                console.log(`AJAX Error (${formId}):`, xhr.status, xhr.responseText);
                 showPopup('Error en el servidor: ' + xhr.responseJSON.message, false);
-                lockForm(false);
+                lockForm(formId, false);
             }
         });
     }
+
+    // Initialize forms
+    setupForm('accesorios-form', 'accesorios-submit-btn');
+    setupForm('baterias-form', 'baterias-submit-btn');
+    setupForm('contacto-form', 'contacto-submit-btn');
+    setupForm('mantenimiento-form', 'mantenimiento-submit-btn');
+    setupForm('reciclado-form', 'reciclado-submit-btn');
+    setupForm('repuestos-form', 'repuestos-submit-btn');
 
     // Input restrictions
     $('#nombre').on('input', function() {
@@ -160,13 +136,7 @@ $(document).ready(function() {
         if (this.value.length > 70) this.value = this.value.slice(0, 70);
     });
 
-    $('#duracion').on('input', function() {
-        this.value = this.value.replace(/\D/g, '');
-        if (this.value.length > 3) this.value = this.value.slice(0, 3);
-        if (this.value > 999) this.value = 999;
-    });
-
-    $('#comentarios').on('input', function() {
+    $('#comentarios, #mensaje').on('input', function() {
         if (this.value.length > 200) this.value = this.value.slice(0, 200);
     });
 });
