@@ -122,6 +122,14 @@ $('#intencion').on('change', function() {
             }
         });
     });
+    
+    //Added by IA suggestion
+    $('#submit-btn').on('click', function(e) {
+    if (!$('#nombre').val() || !$('#correo').val()) {
+        e.preventDefault();
+        alert('Nombre y correo son obligatorios');
+    }
+	});
 
     // Input restrictions
     $('#nombre').on('input', function() {
