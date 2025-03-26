@@ -77,12 +77,12 @@ $(document).ready(function() {
             return;
         }
 
-        // Add hidden input for form source
-        if ($(`#${formId} input[name="form_source"]`).length === 0) {
-            $(`#${formId}`).append(`<input type="hidden" name="form_source" value="${formId}">`);
-        }
+        // Ensure hidden input exists and has correct value
+        let $form = $(`#${formId}`);
+        $form.find('input[name="form_source"]').remove();
+        $form.append(`<input type="hidden" name="form_source" value="${formId}">`);
 
-        const formData = $(`#${formId}`).serialize();
+        const formData = $form.serialize();
         console.log(`Sending (${formId}):`, formData);
         lockForm(formId, true);
         $.ajax({
@@ -94,7 +94,7 @@ $(document).ready(function() {
                 console.log(`Response (${formId}):`, response);
                 if (response.status === 'success') {
                     showPopup(response.message, true);
-                    $(`#${formId}`)[0].reset();
+                    $form[0].reset();
                     setTimeout(() => lockForm(formId, false), 3000);
                 } else {
                     showPopup(response.message, false);

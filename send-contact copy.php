@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     exit;
 }
 
-// Sanitize standard fields
+// Sanitize and validate inputs
 $nombre = filter_input(INPUT_POST, 'nombre', FILTER_SANITIZE_STRING) ?? '';
 $correo = filter_input(INPUT_POST, 'correo', FILTER_SANITIZE_EMAIL) ?? '';
 $provincia = filter_input(INPUT_POST, 'provincia', FILTER_SANITIZE_STRING) ?? '';
@@ -32,9 +32,9 @@ if (empty($nombre) || !filter_var($correo, FILTER_VALIDATE_EMAIL)) {
     exit;
 }
 
-// Build email body with standard fields
+// Build email body
 $to = "info@parksoluciones.com.ar"; // Replace with your email
-$subject = "Nuevo mensaje web - Park Soluciones - $form_source\n";
+$subject = "Nuevo mensaje del formulario web - Park Soluciones";
 $body = "Formulario enviado desde: $form_source\n";
 if (!empty($correo)) $body .= "Correo: $correo\n";
 if (!empty($telefono)) $body .= "Teléfono: $telefono\n";
@@ -49,22 +49,7 @@ if (!empty($color)) $body .= "Color: $color\n";
 if (!empty($accesorios)) $body .= "Accesorios: $accesorios\n";
 if (!empty($comentarios)) $body .= "Comentarios/Mensaje: $comentarios\n";
 
-// Add custom fields dynamically
-$standard_fields = ['nombre', 'correo', 'provincia', 'telefono', 'comentarios', 'mensaje', 'intencion', 'duracion', 'unidad', 'marca', 'pasajeros', 'bateria', 'color', 'accesorios', 'form_source'];
-foreach ($_POST as $key => $value) {
-    if (!in_array($key, $standard_fields)) {
-        if (is_array($value)) {
-            $body .= ucfirst($key) . ": " . implode(', ', array_map('htmlspecialchars', $value)) . "\n";
-        } else {
-            $sanitized_value = filter_var($value, FILTER_SANITIZE_STRING);
-            if (!empty($sanitized_value)) {
-                $body .= ucfirst($key) . ": $sanitized_value\n";
-            }
-        }
-    }
-}
-
-$headers = "From: no-reply@barberan.com.ar\r\n" .
+$headers = "From: no-reply@parksoluciones.com.ar\r\n" .
            "Reply-To: $correo\r\n" .
            "X-Mailer: PHP/" . phpversion();
 
