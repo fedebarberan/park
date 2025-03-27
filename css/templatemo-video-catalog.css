@@ -729,3 +729,112 @@ text-align: center;
 .whatsapp-float:hover {
     transform: scale(1.1); /* Slight zoom on hover */
 }
+.logo-grid-container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo-img {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 15px;
+    .logo-img {
+        max-width: 100px; /* Override for smaller screens */
+    	}
+    }
+}
+
+/* Optional: Adjust grid columns for mobile */
+@media (max-width: 480px) {
+    .logo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Match logo size */
+        gap: 10px;
+    }
+}
+.logo-img {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    position: relative; /* For custom tooltip positioning */
+}
+
+/* Custom tooltip */
+.logo-img:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%; /* Above the image */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 10;
+    pointer-events: none;
+}
+
+/* Ensure container doesn’t clip tooltips */
+.logo-grid-container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: visible; /* Prevent tooltip clipping */
+}
+
+/* Footer brand images */
+.footer-brand-img {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Responsive mode (mobile) for footer images */
+@media (max-width: 768px) {
+    .footer-brand-img {
+        max-width: 100px; /* Match logo-img mobile size */
+    }
+}
+
+/* Optional: Footer image container (if needed) */
+.tm-footer-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .tm-footer-images {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 10px;
+    }
+}
